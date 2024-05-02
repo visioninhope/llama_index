@@ -1,5 +1,74 @@
 # ChangeLog
 
+## [2024-04-27]
+
+### `llama-index-core` [0.10.33]
+
+- add agent_worker.as_agent() (#13061)
+
+### `llama-index-embeddings-bedrock` [0.1.5]
+
+- Use Bedrock cohere character limit (#13126)
+
+### `llama-index-tools-google` [0.1.5]
+
+- Change default value for attendees to empty list (#13134)
+
+### `llama-index-graph-stores-falkordb` [0.1.4]
+
+- Skip index creation error when index already exists (#13085)
+
+### `llama-index-tools-google` [0.1.4]
+
+- Fix datetime for google calendar create_event api (#13132)
+
+### `llama-index-llms-anthropic` [0.1.11]
+
+- Merge multiple prompts into one (#13131)
+
+### `llama-index-indices-managed-llama-cloud` [0.1.6]
+
+- Use MetadataFilters in LlamaCloud Retriever (#13117)
+
+### `llama-index-graph-stores-kuzu` [0.1.3]
+
+- Fix kuzu integration .execute() calls (#13100)
+
+### `llama-index-vector-stores-lantern` [0.1.3]
+
+- Maintenance update to keep up to date with lantern builds (#13116)
+
+## [2024-04-25]
+
+### `llama-index-core` [0.10.32]
+
+- Corrected wrong output type for `OutputKeys.from_keys()` (#13086)
+- add run_jobs to aws base embedding (#13096)
+- allow user to customize the keyword extractor prompt template (#13083)
+- (CondenseQuestionChatEngine) Do not condense the question if there's no conversation history (#13069)
+- QueryPlanTool: Execute tool calls in subsequent (dependent) nodes in the query plan (#13047)
+- Fix for fusion retriever sometime return Nonetype query(s) before similarity search (#13112)
+
+### `llama-index-embeddings-ipex-llm` [0.1.1]
+
+- Support llama-index-embeddings-ipex-llm for Intel GPUs (#13097)
+
+### `llama-index-packs-raft-dataset` [0.1.4]
+
+- Fix bug in raft dataset generator - multiple system prompts (#12751)
+
+### `llama-index-readers-microsoft-sharepoint` [0.2.1]
+
+- Add access control related metadata to SharePoint reader (#13067)
+
+### `llama-index-vector-stores-pinecone` [0.1.6]
+
+- Nested metadata filter support (#13113)
+
+### `llama-index-vector-stores-qdrant` [0.2.8]
+
+- Nested metadata filter support (#13113)
+
 ## [2024-04-23]
 
 ### `llama-index-core` [0.10.31]
